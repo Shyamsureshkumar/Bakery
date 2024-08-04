@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Margin padding</title>
+
+
+    <style>
+
+.container{
+
+    /* height: 800px; */
+    width: 800px;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: repeat(2,500px); */
+    grid-template-areas: "header header header"
+    "main main slidebar"
+    "footer footer footer";
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}        
+.one{
+    background-color: rgb(207, 205, 255);
+    border: 2px solid black;
+    grid-area: header;
+    width: 800px;
+    height: 50px;
+}
+.container2{
+
+    background-color: green;
+    border: 2px solid rgb(0, 0, 0);
+    grid-area: main;
+    height: 250px;
+    width: 700px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 12px;
+    justify-self: self-start;
+    /* padding-left: 100px; */
+}
+.box{
+    height: 20px;
+    width: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:20px;
+    justify-content: right;
+    margin: 22px;
+    /* justify-self: start; */
+    /* border: 2px solid black; */
+    padding-left: 150px;
+    
+    
+}
+.b{
+    background-color: rgb(94, 189, 0);
+    height:40px ;
+    width:50px ;
+    margin:5px ;
+    text-align: center;
+    line-height: 35px;
+    box-shadow: 3px 3px 2px black;
+}
+.three{
+    background-color: rgb(234, 108, 34);
+    border: 2px solid black;
+    grid-area: slidebar;
+    height: 220px;
+}
+
+.four{
+    background-color: rgb(29, 23, 200);
+    border: 2px solid black;
+    grid-area: footer
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+<div class="one">Header</div>
+<div class="container2">
+<div class="two">main</div>    
+<div class="box">
+<div  style="border: 2px solid rgba(0, 0, 0, 0.792); " class="b">item</div>
+<div  style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div  style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div style="border: 2px solid rgb(0, 0, 0); " class="b">item</div>
+<div style="border: 2px solid black; " class="b">item</div>
+<div style="border: 2px solid black; " class="b">item</div>
+<div style="border: 2px solid black; " class="b">item</div>
+<div style="border: 2px solid black " class="b">item</div>
+</div>
+</div>
+
+
+<div style="padding: 15px; margin-top: 10px;" class="three">slidebar</div>
+<div style="padding: 15px; margin-top: 10px;" class="four">footer</div>
+
+</div>
+
+
+
+</body>
+</html>

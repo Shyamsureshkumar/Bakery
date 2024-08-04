@@ -1,0 +1,263 @@
+The HTML <form> Elements
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<option>
+
+1.input and label
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+
+2.select
+<form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <input type="submit">
+  </form>
+
+  selected
+  <form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat" selected>Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <input type="submit">
+  </form>
+
+  size
+  <form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars" size="3">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select><br><br>
+    <input type="submit">
+  </form>
+  multiple
+  <label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+3.textarea
+<form action="/action_page.php">
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+    <br><br>
+    <input type="submit">
+  </form>
+
+  4.button
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+  5. fieldset and legend
+  
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+  6.datalist
+    <form action="/action_page.php">
+      <input list="browsers" name="browser">
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+      <input type="submit">
+    </form>
+
+# input types
+  <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+1.Input Type Text
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  2.Input Type Password
+  <form action="/action_page.php">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+3.Input Type Submit
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  4.Input Type Reset
+  <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form> 
+  5.Input Type Radio
+  <form action="/action_page.php">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+    6.Input Type Checkbox
+    <form action="/action_page.php">
+      
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+      7.Input Type Date
+      <form action="/action_page.php">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </form>
+      8.Input Type Email
+      <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Submit">
+      </form>
+    9.Input Type File
+    <form action="/action_page.php">
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    10.Input Type Number
+    <form action="/action_page.php">
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <input type="submit" value="Submit">
+      </form>
+
+====   HTML Input Attributes ====
+The value Attribute
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  The readonly Attribute
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John" readonly><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe">
+  </form>   
+  The disabled Attribute
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John" disabled><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe">
+  </form>
+  The size Attribute
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" size="4">
+  </form>
+  The maxlength Attribute
+  <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  The min and max Attributes
+  <form>
+    <label for="datemax">Enter a date before 1980-01-01:</label>
+    <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+    <label for="datemin">Enter a date after 2000-01-01:</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+  
+    <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+  </form>
+  The multiple Attribute
+  <form>
+    <label for="files">Select files:</label>
+    <input type="file" id="files" name="files" multiple>
+  </form>
+  The pattern Attribute
+  <form>
+    <label for="country_code">Country code:</label>
+    <input type="text" id="country_code" name="country_code"
+    pattern="[A-Za-z]{3}" title="Three letter country code">
+  </form>
+  The required Attribute
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+  </form>

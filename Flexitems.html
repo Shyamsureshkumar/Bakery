@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+
+
+<style>
+
+.container{
+   height: 500px;
+   width:500px;
+   border: 2px solid black;
+   display: flex;
+   
+
+
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+
+
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    /* order: 4; */
+    /* flex-grow: 1; */
+    /* flex:0 0 500px; */
+    
+}
+
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(246, 255, 0);
+    border: 2px solid black;
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 500px; */
+    align-self:start;
+}
+.four{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 21);
+    border: 2px solid black;
+    /* flex-grow: 5; */
+    /* order: 2; */
+}
+.five{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 33, 255);
+    border: 2px solid black;
+    /* flex-grow: 5; */
+    /* order: 2; */
+    /* flex-shrink: 0; */
+}
+.six{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 14, 207);
+    border: 2px solid black;
+    /* flex-grow: 5; */
+    /* order: 2; */
+    /* flex-shrink: 0; */
+}
+
+</style>
+
+
+</head>
+<body>
+  <div class="container">
+<div  class="one">one</div>
+<div class="two">two</div>
+<div class="three">three</div>
+<div class="four">four</div>
+<!-- <div class="five">five</div>
+<div class="six">six</div> -->
+</div>
+
+
+</body>
+</html>

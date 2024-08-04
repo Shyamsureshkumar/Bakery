@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercise</title>
+
+<style>
+.container{
+
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    /* grid-template-areas: "one one one"
+    "two  three four"
+    "two five five "; */
+    height: 600px;
+
+
+}
+.one{
+    background-color: aqua;
+    border: 2px solid black;
+    /* grid-area: one; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.two{
+    background-color: rgb(106, 0, 255);
+    border: 2px solid black;
+    /* grid-area: two; */
+}
+.three{
+    background-color: rgb(246, 255, 0);
+    border: 2px solid black;
+    /* grid-area: three; */
+}
+.four{
+    background-color: rgb(255, 0, 183);
+    border: 2px solid black;
+    /* grid-area: four; */
+}
+.five{
+    background-color: rgb(13, 255, 0);
+    border: 2px solid black;
+    /* grid-area: five; */
+}
+
+</style>
+
+</head>
+<body>
+    
+
+<div class="container">
+<div class="one">header</div>
+<div class="two">Menu</div>
+<div class="three">main</div>
+<div class="four">right</div>
+<div class="five">footer</div>
+
+</div>
+
+
+
+</body>
+</html>

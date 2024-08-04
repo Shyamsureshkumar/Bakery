@@ -1,0 +1,532 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+    }
+
+.first{
+    height: 600px;
+    width: 1460px;
+    /* border: 2px solid black; */
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://wallpaperaccess.com/full/767254.jpg");
+    /* background-size: 1500px 700px; */
+    background-size: cover;
+    box-shadow: 2px 2px 8px black;
+    
+   
+   
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    /* margin-left: 580px; */
+    margin-top: 150px;
+    animation-name: sureshkumar;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    transition: 2s;
+    
+}
+
+    nav{
+        width: 100%;
+        /* display: flex; */
+        
+        /* align-items: center; */
+        backdrop-filter: blur(100px);
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 500px;
+        /* justify-content: space-between; */
+        gap: 60px;
+        /* align-items: center; */
+        padding-right: 420px;
+
+    }
+    ul,li{
+        list-style: none;
+    }
+    ul,li,a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    ul,li,a:hover{
+      color: blueviolet;
+    }
+
+    .about{
+
+        margin-top: 120px;    
+        margin-left: 40px;   
+        height: 600px;
+        width: 1400px;
+        border: 2px solid black;
+    }
+.one{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+    width: 650px;
+    
+}
+.bakery{
+    display: flex;
+}
+.container{
+    margin-top: 60px;
+    height: 300px;
+    background-image: url("https://wallpaperaccess.com/full/2947780.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 190px 150px;
+    color: rgb(0, 0, 0);
+    
+}
+.location{
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
+}
+.image1{
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin-right: 230px;
+    height: fit-content;
+    margin-top: 60px;
+}
+.shop{
+    height: 100px;
+    width: 100px;
+    padding-left: 50px;
+}
+.image2{
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    margin-top:80px;
+    margin-right: 80px;
+}
+.rupee{
+    height: 120px;
+    width: 130px;
+    padding-left: 80px;
+}
+.image3{
+    
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 60px;
+    margin-left: 90px;
+
+}
+.con2{
+    height: 1500px;
+    width: 1500px;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 50px;
+    gap: 100px 180px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 100px;
+}
+.pizza1{
+    height: 300px;
+    width: 300px;
+}
+.box1{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    /* transition: 1s; */
+
+}
+.pizza1,.box1{
+    transition: transform 1s; 
+}
+.pizza1:hover{
+    transform: scale(1.1);
+    /* height: 250px;
+    width: 250px; */
+
+}
+
+
+button{
+    border-radius: 9px;
+    height: 50px; 
+    width: 90px;
+     margin-top: 20px;
+   cursor: pointer;
+   border: 0px;
+   background-color: aliceblue;
+   letter-spacing: 1.5px;
+}
+
+
+button:active{
+    transform: translateY(5px);
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: rgb(0, 17, 255);
+    color: white;
+    box-shadow: rgb(0, 30, 255) 0px 7px 29px ;
+}
+
+
+.pizza2{
+    height: 300px;
+    width: 300px;
+}
+.box2{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pizza2,.box2{
+
+    transition: transform 1s; 
+}
+
+.pizza2:hover{
+    transform:scale(1.1);
+}
+
+.pizza3{
+    height: 300px;
+    width: 300px;
+}
+.box3{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+.pizza3,.box3{
+
+    transition: transform 1s; 
+}
+
+.pizza3:hover{
+    transform:scale(1.1);
+}
+
+
+
+/* cakes3 */
+.con3{
+
+        height: 1500px;
+        width: 1500px;
+        border: 2px solid black;
+        margin-top: 50px;
+        display: flex;
+        justify-content:center ;
+        margin-bottom: 50px;
+        gap: 100px 180px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 100px;
+
+}
+
+
+
+
+.cake1{
+    height: 300px;
+    width: 300px;
+}
+.ck{
+    border: 2px solid black;
+    width: fit-content;
+}
+
+.ck,.cake1{
+
+    transition: transform 1s; 
+}
+
+.cake1:hover{
+    transform:scale(1.1);
+}
+
+.cake2{
+    height: 300px;
+    width: 300px;
+
+}
+.ck2{
+    border: 2px solid black;
+    width: fit-content;
+}
+.ck2,.cake2{
+
+    transition: transform 1s; 
+}
+
+.cake2:hover{
+    transform:scale(1.1);
+}
+
+.cake3{
+    height: 300px;
+    width: 300px;
+}
+.ck3{
+    border: 2px solid black;
+    width: fit-content;
+}
+.ck3,.cake3{
+
+    transition: transform 1s; 
+}
+
+.cake3:hover{
+    transform:scale(1.1);
+}
+
+
+/* icecream */
+
+
+.con4{
+
+    height: 1500px;
+    width: 1500px;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 50px;
+    gap: 100px 180px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 100px;
+
+}
+
+
+
+
+.ice1{
+    height: 300px;
+    width: 300px;
+}
+.ic{
+    border: 2px solid black;
+    width: fit-content;
+}
+.ic,.ice1{
+    transition: transform 1s;
+}
+.ice1:hover{
+    transform: scale(1.1);
+
+}
+.ice2{
+    height: 300px;
+    width: 300px;
+}
+.ic2{
+    border: 2px solid black;
+    width: fit-content;
+}
+.ic2,.ice2{
+    transition: transform 1s;
+}
+.ice2:hover{
+    transform: scale(1.1);
+
+}
+
+.ice3{
+    height: 300px;
+    width: 300px;
+
+}
+.ic3{
+    border: 2px solid black;
+    width: fit-content
+}
+.ic3,.ice3{
+    transition: transform 1s;
+}
+.ice3:hover{
+    transform: scale(1.1);
+
+}
+/* .ic,.ice1,.ic2,.ice2,.ic3,.ice3{
+    transition: transform 1s;
+}
+.ice1,.ice,.ice3:hover{
+    transform: scale(1.3);
+
+} */
+
+.vision{
+    margin-left: 150px;
+    margin-top: 90px;
+    height: 800px;
+    width: 1200px;
+    border: 2px solid black;
+    height: fit-content;
+}
+
+
+.leader{
+    margin-left: 100px;
+    margin-top: 50px;
+    /* height: 1100px; */
+    width: 1300px;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.shyam{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 680px;
+    width: 550px;
+}
+.quality{
+    word-spacing: 10px;
+    text-transform: capitalize;
+}
+.photo{
+    display: flex;
+}
+.bakery1{
+    margin-top: 80px;
+    margin-left: 50px;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+}
+.history{
+    margin-left: 30px;
+    margin-top: 100px;
+    word-spacing: 10px;
+    font-weight: bolder;
+}
+
+.bake2{
+    height: 450px;
+    width: 450px;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.division{
+    display: flex;
+}
+.outlet1{
+    margin-top: 60px;
+    margin-left: 100px;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+}
+.images2{
+    margin-right: 40px;
+}
+.outlet2{
+    height: 250px;
+    width: 250px;
+}
+.outlet3{
+    height: 250px;
+    width: 250px;
+}
+.outlet4{
+    height: 250px;
+    width: 250px;
+}
+.outlet5{
+    height: 250px;
+    width: 250px;
+}
+.outlets{
+    margin-top: 80px;
+    display: flex;
+    
+    gap: 20px 90px;
+}
+.ending{
+    margin-top: 90px;
+    margin-left: 250px;
+    height: fit-content;
+    width: 1000px;
+    border: 2px solid black;
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.ins{
+    display: flex;
+}
+.map{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+}
+.location{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.onee{
+    margin-top: 10px;
+}
+.btn{
+    height: 70px;
+    width: 200px;
+    border: 2px solid rgb(255, 145, 0);
+    margin-left: 230px;
+}
+.btn1{
+    margin-left: 130px;
+    height: 70px;
+    width: 200px;
+    /* border: 2px solid black; */
+}
+.black{
+    margin-top: 140px;
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+@keyframes sureshkumar {
+
+    from{left: 0px;}
+    to{left: 600px;}
+    
+}

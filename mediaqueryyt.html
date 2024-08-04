@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.container{
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.background{
+    height: 650px;
+    width: 100%;
+    background-color: aqua;
+}
+.one{
+    background-color: white;
+    height: 10%;
+}
+.first{
+    height: 98%;
+    width: 97%;
+    background-color: green;
+}
+.second{
+    height: 80%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.middle{
+    height: 31%;
+    width: 99%;
+    background-color: blue;
+    margin: 2px;
+}
+.third{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+.last{
+    height: 21%;
+    width: 99%;
+    margin: 2px;
+    background-color: gray;
+}
+
+@media screen and (min-width:400px) {
+    .last{
+        height: 48%;
+        width: 48%;
+    }
+    .one{
+        height:20%;
+    }
+    .second{
+        height: 60%;
+    }   
+    .third{
+        height:20% ;
+    }
+    
+}
+@media screen and (min-width:800px){
+    .middle{
+        height: 98%;
+        width: 32%;
+    }
+    .last{
+        height: 98%;
+        width: 24%;
+    }
+    .one{
+        height: 40%;
+    }
+    .second{
+        height: 40%;
+    }
+    .third{
+        height: 20%;
+    }
+}
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="container">
+
+
+<div class="background">
+
+
+    <div class="one">
+        <div class="first"></div>
+    </div>
+
+    <div class="container second">
+        <div class="container middle"></div>
+        <div class="container middle"></div>
+        <div class="container middle"></div>
+    </div>
+  
+     <div class="container third">
+        <div class="container last"></div>
+        <div class="container last"></div>
+        <div class="container last"></div>
+        <div class="container last"></div>
+      </div>
+
+    </div>
+
+
+
+</body>
+</html>
