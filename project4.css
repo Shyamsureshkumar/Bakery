@@ -1,0 +1,161 @@
+h5{
+    text-decoration:underline;
+    padding-top: 30px;
+}
+.images{
+    height: fit-content;
+    width: 100%;
+    
+}
+/* .pic1{
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 30px;
+} */
+.images{
+    display: flex;
+}
+/* .content1{
+    margin-left: 40px;
+    margin-top: 40px;
+} */
+.prog1{
+    /* display: flex; */
+}
+.main2{
+    margin-bottom: 70px;
+}
+.card-img-top1{
+    border-radius: 100%
+}
+.card-img-top2{
+    border-radius: 100%
+}
+.card-img-top3{
+    border-radius: 100%
+}
+.cc {
+    position: relative;
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  .ccc {
+    width: 100%; /* Make image responsive */
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    
+    display: flex;
+    
+    align-items: center;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+  }
+  
+  .overlay i {
+    color: white; /* Adjust color as needed */
+    font-size: 40px; /* Adjust size as needed */
+  }
+  .bi:hover{
+    color: blue;
+    cursor: pointer;
+    background-color: aliceblue;
+    
+  }
+  .overlay2{
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 30px;
+    
+    align-items: center;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+
+  }
+  .overlay3{
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    margin-top: 95px;
+    display: flex;
+    
+    align-items: center;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+
+  }
+
+  .overlay4{
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    
+    display: flex;
+    
+    align-items: center;
+
+  }
+  .overlay5{
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 30px;
+    
+    align-items: center;
+
+  }
+  .overlay6{
+    position: absolute;
+    top: 0;
+    bottom: 3;
+    margin-top: 95px;
+    display: flex;
+    
+    align-items: center;
+
+  }
+
+
+.address{
+    /* height: 450px; */
+    /* width:1300px; */
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    background-image: url("https://bootstrapmade.com/demo/templates/Lumia/assets/img/contact-bg.png");
+   
+}
+/* .add1{
+    display: flex;
+} */
+
+
+.footer{
+    height: fit-content;
+   
+    /* border: 2px solid black; */
+    /* margin-top: 70px; */
+    
+}
+.iconns{
+    display: flex;
+    column-gap: 10px;
+}
+.footer{
+    /* display: flex; */
+    background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+}
+.copyright{
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+}
+.navbar-brand{
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
